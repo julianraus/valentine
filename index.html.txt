@@ -125,10 +125,9 @@
             </div>
         </section>
 
-        <!-- Pemutar musik dari YouTube -->
-        <section class="music-section">
+   <section class="music-section">
             <!-- Menyisipkan video/audio YouTube dengan autoplay -->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/k9lw-_JBHp0?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="420" height="236" src="https://www.youtube.com/embed/k9lw-_JBHp0?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
 
         <footer>
