@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Valentine's Day</title>
+    <style>
+        /* Gaya umum untuk latar belakang */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe6e6;
+            color: #333;
+            text-align: center;
+        }
+
+        /* Pengaturan untuk container utama */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header dengan judul */
+        header {
+            background-color: #ff4d4d;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        /* Animasi untuk gambar */
+        .image-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            margin-top: 20px;
+            height: 300px; /* Sesuaikan dengan ukuran yang diinginkan */
+        }
+
+        .image-slider {
+            display: flex;
+            animation: slide 30s infinite;
+        }
+
+        .image-slider img {
+            width: 200px;
+            height: 200px;
+            margin: 0 10px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Animasi untuk gambar bergerak */
+        @keyframes slide {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        /* Gaya untuk pemutar musik YouTube */
+        .music-section {
+            margin-top: 30px;
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Happy Valentine Sayanggkuuuu!</h1>
+        </header>
+        <!-- Bagian untuk gambar yang bergerak -->
+        <section class="image-section">
+            <div class="image-slider">
+                <!-- Menambahkan gambar secara manual dengan path relatif -->
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04750.JPG" alt="Valentine Image 1">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04751.JPG" alt="Valentine Image 2">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04752.JPG" alt="Valentine Image 3">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04753.JPG" alt="Valentine Image 4">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04754.JPG" alt="Valentine Image 5">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04755.JPG" alt="Valentine Image 6">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04756.JPG" alt="Valentine Image 7">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04757.JPG" alt="Valentine Image 8">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04758.JPG" alt="Valentine Image 9">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04759.JPG" alt="Valentine Image 10">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04760.JPG" alt="Valentine Image 11">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04761.JPG" alt="Valentine Image 12">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04762.JPG" alt="Valentine Image 13">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04763.JPG" alt="Valentine Image 14">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04764.JPG" alt="Valentine Image 15">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04765.JPG" alt="Valentine Image 16">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04766.JPG" alt="Valentine Image 17">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04767.JPG" alt="Valentine Image 18">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04768.JPG" alt="Valentine Image 19">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04769.JPG" alt="Valentine Image 20">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04770.JPG" alt="Valentine Image 21">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04771.JPG" alt="Valentine Image 22">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04772.JPG" alt="Valentine Image 23">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04773.JPG" alt="Valentine Image 24">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04774.JPG" alt="Valentine Image 25">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04775.JPG" alt="Valentine Image 26">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04776.JPG" alt="Valentine Image 27">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04777.JPG" alt="Valentine Image 28">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04778.JPG" alt="Valentine Image 29">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04779.JPG" alt="Valentine Image 30">
+                <img src="https://raw.githubusercontent.com/julianraus/valentine/6705e858141e7578079d145514d7b096d8649407/images/DSC04780.JPG" alt="Valentine Image 31">
+            </div>
+        </section>
+
+        <!-- Pemutar musik dari YouTube -->
+        <section class="music-section">
+            <!-- Menyisipkan video/audio YouTube dengan autoplay -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/k9lw-_JBHp0?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <footer>
+            <p>Lup u Ginet <3.</p>
+        </footer>
+    </div>
+</body>
+</html>
