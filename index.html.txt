@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Valentine's Day</title>
+    <style>
+        /* Gaya umum untuk latar belakang */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe6e6;
+            color: #333;
+            text-align: center;
+        }
+
+        /* Pengaturan untuk container utama */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header dengan judul */
+        header {
+            background-color: #ff4d4d;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        /* Animasi untuk gambar */
+        .image-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            margin-top: 20px;
+            height: 300px; /* Sesuaikan dengan ukuran yang diinginkan */
+        }
+
+        .image-slider {
+            display: flex;
+            animation: slide 30s infinite;
+        }
+
+        .image-slider img {
+            width: 200px;
+            height: 200px;
+            margin: 0 10px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Animasi untuk gambar bergerak */
+        @keyframes slide {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        /* Gaya untuk pemutar musik YouTube */
+        .music-section {
+            margin-top: 30px;
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Selamat Hari Valentine!</h1>
+        </header>
+
+        <!-- Bagian untuk gambar yang bergerak -->
+        <section class="image-section">
+            <div class="image-slider">
+                <!-- Loop untuk menambahkan gambar DSC04750 sampai DSC04780 -->
+                <script>
+                    for (let i = 50; i <= 80; i++) {
+                        let img = document.createElement("img");
+                        img.src = `images/DSC047${i}.jpg`;  // Path gambar
+                        img.alt = `Valentine Image ${i}`;
+                        document.querySelector(".image-slider").appendChild(img);
+                    }
+                </script>
+            </div>
+        </section>
+
+        <!-- Pemutar musik dari YouTube -->
+        <section class="music-section">
+            <!-- Menyisipkan video/audio YouTube -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/k9lw-_JBHp0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <footer>
+            <p>Website ini dibuat dengan cinta.</p>
+        </footer>
+    </div>
+</body>
+</html>
