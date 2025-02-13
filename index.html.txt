@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -84,32 +85,30 @@
 <body>
     <div class="container">
         <header>
-            <h1>Selamat Hari Valentine!</h1>
+            <h1>Happy Valentine Sayanggkuuuu!</h1>
         </header>
 
         <!-- Bagian untuk gambar yang bergerak -->
         <section class="image-section">
             <div class="image-slider">
-                <!-- Loop untuk menambahkan gambar DSC04750 sampai DSC04780 -->
-                <script>
-                    for (let i = 50; i <= 80; i++) {
-                        let img = document.createElement("img");
-                        img.src = `images/DSC047${i}.jpg`;  // Path gambar
-                        img.alt = `Valentine Image ${i}`;
-                        document.querySelector(".image-slider").appendChild(img);
-                    }
-                </script>
+                <!-- Menambahkan gambar secara manual dengan path relatif -->
+                <img src="images/DSC04750.jpg" alt="Valentine Image 1">
+                <img src="images/DSC04751.jpg" alt="Valentine Image 2">
+                <img src="images/DSC04752.jpg" alt="Valentine Image 3">
+                <img src="images/DSC04753.jpg" alt="Valentine Image 4">
+                <img src="images/DSC04754.jpg" alt="Valentine Image 5">
+                <!-- Tambahkan lebih banyak gambar sesuai kebutuhan -->
             </div>
         </section>
 
         <!-- Pemutar musik dari YouTube -->
         <section class="music-section">
-            <!-- Menyisipkan video/audio YouTube -->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/k9lw-_JBHp0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- Menyisipkan video/audio YouTube dengan autoplay -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/k9lw-_JBHp0?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
 
         <footer>
-            <p>Website ini dibuat dengan cinta.</p>
+            <p>Lup u Ginet <3.</p>
         </footer>
     </div>
 </body>
